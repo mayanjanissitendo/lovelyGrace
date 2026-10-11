@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-label="Pork dish illustration">
+  <defs>
+    <linearGradient id="platePink" x1="0" x2="1">
+      <stop offset="0%" stop-color="#fff8f8" />
+      <stop offset="100%" stop-color="#f5dfe6" />
+    </linearGradient>
+    <linearGradient id="porkMeat" x1="0" x2="1">
+      <stop offset="0%" stop-color="#f5b19d" />
+      <stop offset="100%" stop-color="#d56b60" />
+    </linearGradient>
+    <linearGradient id="vegGreen" x1="0" x2="1">
+      <stop offset="0%" stop-color="#b8db95" />
+      <stop offset="100%" stop-color="#6ea85d" />
+    </linearGradient>
+  </defs>
+
+  <g>
+    <ellipse cx="160" cy="150" rx="120" ry="44" fill="url(#platePink)" stroke="#e7bfd0" stroke-width="3" />
+    <ellipse cx="160" cy="148" rx="98" ry="28" fill="#fff9fb" opacity="0.8" />
+
+    <path d="M102 112 C90 102, 93 86, 107 82 C128 78, 140 90, 146 104 C132 119, 118 119, 102 112 Z" fill="url(#porkMeat)" />
+    <path d="M146 103 C164 86, 190 86, 204 104 C221 124, 209 146, 185 151 C152 156, 131 128, 146 103 Z" fill="url(#porkMeat)" />
+    <path d="M118 126 C128 112, 148 110, 160 120 C170 132, 170 148, 154 158 C136 168, 116 154, 118 126 Z" fill="#f9d0be" opacity="0.75" />
+    <path d="M190 118 C196 108, 210 104, 220 112" fill="none" stroke="#e09887" stroke-width="6" stroke-linecap="round" />
+
+    <path d="M82 106 C78 92, 89 80, 104 77 C110 89, 106 104, 82 106 Z" fill="url(#vegGreen)" />
+    <path d="M240 103 C234 90, 246 76, 260 77 C268 90, 263 103, 240 103 Z" fill="url(#vegGreen)" />
+    <path d="M145 72 C142 62, 150 50, 161 51 C165 61, 160 72, 145 72 Z" fill="url(#vegGreen)" />
+    <path d="M170 84 C177 74, 190 70, 201 76 C194 86, 182 89, 170 84 Z" fill="url(#vegGreen)" />
+
+    <path d="M101 130 C93 142, 96 158, 109 167" fill="none" stroke="#d96b51" stroke-width="6" stroke-linecap="round" />
+    <path d="M205 128 C216 142, 214 157, 199 166" fill="none" stroke="#d96b51" stroke-width="6" stroke-linecap="round" />
+    <ellipse cx="130" cy="139" rx="8" ry="10" fill="#fff0ee" opacity="0.8" />
+    <ellipse cx="176" cy="140" rx="8" ry="10" fill="#fff0ee" opacity="0.8" />
+    <circle cx="85" cy="110" r="8" fill="#f7d5db" opacity="0.9" />
+    <circle cx="238" cy="106" r="8" fill="#f7d5db" opacity="0.9" />
+    <path d="M160 98 C165 86, 181 86, 188 101" fill="none" stroke="#f4c8cb" stroke-width="5" stroke-linecap="round" />
+  </g>
+</svg>

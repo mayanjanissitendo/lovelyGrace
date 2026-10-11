@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A romantic date invitation for Grace with a cuddly teddy bear and playful surprise flow."
+    />
+    <title>Grace Date Invitation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-glow" aria-hidden="true"></div>
+
+    <div class="floating-hearts" aria-hidden="true">
+      <span style="--x: 8%; --delay: 0s; --size: 1.1rem">❤</span>
+      <span style="--x: 16%; --delay: 1.5s; --size: 1.4rem">❤</span>
+      <span style="--x: 27%; --delay: 2.4s; --size: 1.2rem">❤</span>
+      <span style="--x: 42%; --delay: 0.8s; --size: 1.6rem">❤</span>
+      <span style="--x: 58%; --delay: 1.9s; --size: 1.1rem">❤</span>
+      <span style="--x: 72%; --delay: 2.6s; --size: 1.5rem">❤</span>
+      <span style="--x: 84%; --delay: 1.2s; --size: 1.3rem">❤</span>
+      <span style="--x: 92%; --delay: 2.1s; --size: 1.1rem">❤</span>
+    </div>
+
+    <main class="app" aria-live="polite">
+      <section id="invitation-screen" class="screen active" aria-labelledby="invitation-title">
+        <div class="question-wrap">
+          <h1 id="invitation-title" class="main-question">
+            Mpenzi Wangu Grace<br />Will you go on a date with me?
+          </h1>
+        </div>
+
+        <div class="scene">
+          <div class="bear-stage">
+            <div id="bear-shell" class="bear-shell" aria-live="polite"></div>
+            <div id="speech-bubble" class="speech-bubble" aria-live="polite">
+              <p id="speech-text">You keep saying no to my dates.</p>
+              <div class="bubble-emoji" aria-hidden="true">😭 😢 🥺</div>
+            </div>
+          </div>
+        </div>
+
+        <div id="button-stage" class="button-stage" aria-label="Invitation actions">
+          <button id="yes-btn" class="cta-button yes-btn" type="button">Yes 💖</button>
+          <button id="no-btn" class="cta-button no-btn" type="button" aria-label="Decline the invitation">
+            No 🙈
+          </button>
+        </div>
+      </section>
+
+      <section id="date-screen" class="screen" aria-labelledby="date-title">
+        <div class="panel">
+          <h2 id="date-title">When should we go on our date, my love? 💕</h2>
+          <p>Choose the day you would love us to spend together.</p>
+
+          <label class="date-picker-field" for="date-input">
+            <span>Select a future date</span>
+            <input id="date-input" type="date" />
+          </label>
+
+          <button id="continue-btn" class="primary-button" type="button" disabled>Continue 💗</button>
+        </div>
+      </section>
+
+      <section id="activity-screen" class="screen" aria-labelledby="activity-title">
+        <div class="panel">
+          <h2 id="activity-title">What would you love to do with me, Grace? 💕</h2>
+          <p>Choose the date idea that makes you happiest.</p>
+
+          <div class="activity-grid" role="radiogroup" aria-label="Choose your date activity">
+            <button class="activity-card" type="button" data-activity="ice-cream" aria-pressed="false">
+              <img src="assets/ice-cream.png" alt="Ice cream illustration" />
+              <span class="activity-label">Ice Cream 🍦</span>
+              <span class="activity-caption">Sweet treats with my sweetest girl.</span>
+              <span class="checkmark" aria-hidden="true">✓</span>
+            </button>
+
+            <button class="activity-card" type="button" data-activity="coffee" aria-pressed="false">
+              <img src="assets/coffee.png" alt="Coffee illustration" />
+              <span class="activity-label">Coffee ☕</span>
+              <span class="activity-caption">Coffee, conversations, and you.</span>
+              <span class="checkmark" aria-hidden="true">✓</span>
+            </button>
+
+            <button class="activity-card" type="button" data-activity="pork" aria-pressed="false">
+              <img src="assets/pork.png" alt="Pork meal illustration" />
+              <span class="activity-label">Pork 🍖</span>
+              <span class="activity-caption">A delicious meal with my favorite person.</span>
+              <span class="checkmark" aria-hidden="true">✓</span>
+            </button>
+
+            <button class="activity-card" type="button" data-activity="fish" aria-pressed="false">
+              <img src="assets/fish.png" alt="Fish illustration" />
+              <span class="activity-label">Fish 🐟</span>
+              <span class="activity-caption">A lovely meal with my favorite person.</span>
+              <span class="checkmark" aria-hidden="true">✓</span>
+            </button>
+
+            <button class="activity-card" type="button" data-activity="chicken" aria-pressed="false">
+              <img src="assets/chicken.png" alt="Chicken illustration" />
+              <span class="activity-label">Chicken 🍗</span>
+              <span class="activity-caption">Crispy bites and lovely moments together.</span>
+              <span class="checkmark" aria-hidden="true">✓</span>
+            </button>
+          </div>
+
+          <button id="confirm-activity-btn" class="primary-button" type="button" disabled>
+            Confirm Our Date 💖
+          </button>
+        </div>
+      </section>
+
+      <section id="confirmation-screen" class="screen" aria-labelledby="confirmation-title">
+        <div class="panel confirmation-panel">
+          <div class="mini-bear" aria-hidden="true">
+            <div id="confirmation-bear" class="bear-shell"></div>
+          </div>
+
+          <h2 id="confirmation-title">It's a Date, My Love! 💕</h2>
+
+          <div class="confirmation-card">
+            <p class="confirmation-message">
+              Grace, it's officially a date! 🥹💗<br /><br />
+              I can't wait to spend some beautiful moments with you, my love. You make ordinary days special,
+              and I can't wait to make another beautiful memory with you.
+            </p>
+
+            <div class="confirmation-details">
+              <div class="detail-item">
+                <span class="detail-label">Date</span>
+                <strong id="final-date">Sunday, 15 November 2026</strong>
+              </div>
+              <div class="detail-item">
+                <span class="detail-label">Plan</span>
+                <strong id="final-activity">Ice Cream 🍦</strong>
+              </div>
+            </div>
+
+            <div class="final-activity-visual">
+              <img id="final-activity-image" src="assets/ice-cream.png" alt="Selected date activity illustration" />
+            </div>
+          </div>
+
+          <button id="start-again-btn" class="primary-button" type="button">Start Again 💗</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,152 @@
+<svg class="bear-svg state-hopeful" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 600" role="img" aria-labelledby="bearTitle bearDesc">
+  <title id="bearTitle">Cute teddy bear</title>
+  <desc id="bearDesc">A teddy bear with cheerful, crying, and happy flower-holding expressions.</desc>
+
+  <defs>
+    <linearGradient id="furLight" x1="0" x2="1">
+      <stop offset="0%" stop-color="#f1c98d" />
+      <stop offset="100%" stop-color="#dca36d" />
+    </linearGradient>
+    <linearGradient id="furDark" x1="0" x2="1">
+      <stop offset="0%" stop-color="#e0a460" />
+      <stop offset="100%" stop-color="#b67b47" />
+    </linearGradient>
+    <linearGradient id="furBody" x1="0" x2="1">
+      <stop offset="0%" stop-color="#e6b677" />
+      <stop offset="100%" stop-color="#c98a5a" />
+    </linearGradient>
+    <linearGradient id="pinkEar" x1="0" x2="1">
+      <stop offset="0%" stop-color="#f7c4d9" />
+      <stop offset="100%" stop-color="#ea9cc0" />
+    </linearGradient>
+    <linearGradient id="rosePink" x1="0" x2="1">
+      <stop offset="0%" stop-color="#ffbae0" />
+      <stop offset="100%" stop-color="#f364ab" />
+    </linearGradient>
+    <linearGradient id="roseDeep" x1="0" x2="1">
+      <stop offset="0%" stop-color="#ff79c0" />
+      <stop offset="100%" stop-color="#d71a7d" />
+    </linearGradient>
+    <linearGradient id="leafGreen" x1="0" x2="1">
+      <stop offset="0%" stop-color="#9bd18c" />
+      <stop offset="100%" stop-color="#5f9a5a" />
+    </linearGradient>
+  </defs>
+
+  <g class="body">
+    <g transform="translate(25,55)">
+      <ellipse cx="330" cy="270" rx="150" ry="120" fill="url(#furBody)" />
+      <ellipse cx="330" cy="190" rx="155" ry="118" fill="url(#furDark)" />
+      <ellipse cx="330" cy="340" rx="124" ry="90" fill="#f7e7d2" opacity="0.8" />
+      <ellipse cx="330" cy="420" rx="118" ry="76" fill="#efd0a6" opacity="0.45" />
+      <ellipse cx="250" cy="155" rx="78" ry="74" fill="url(#furLight)" />
+      <ellipse cx="410" cy="155" rx="78" ry="74" fill="url(#furLight)" />
+      <circle cx="250" cy="141" r="30" fill="url(#pinkEar)" />
+      <circle cx="410" cy="141" r="30" fill="url(#pinkEar)" />
+      <ellipse cx="330" cy="210" rx="124" ry="118" fill="url(#furLight)" />
+      <ellipse cx="330" cy="226" rx="110" ry="96" fill="#f3d2a8" opacity="0.38" />
+      <ellipse cx="280" cy="338" rx="46" ry="38" fill="#f8d79d" opacity="0.4" />
+      <ellipse cx="380" cy="338" rx="46" ry="38" fill="#f8d79d" opacity="0.4" />
+      <ellipse cx="288" cy="286" rx="16" ry="20" fill="#fff" />
+      <ellipse cx="372" cy="286" rx="16" ry="20" fill="#fff" />
+      <circle cx="287" cy="286" r="7" fill="#1b1a1a" />
+      <circle cx="373" cy="286" r="7" fill="#1b1a1a" />
+      <circle cx="282" cy="280" r="2.5" fill="#ffffff" />
+      <circle cx="368" cy="280" r="2.5" fill="#ffffff" />
+      <ellipse cx="285" cy="340" rx="16" ry="12" fill="#f3a1bf" opacity="0.9" />
+      <ellipse cx="375" cy="340" rx="16" ry="12" fill="#f3a1bf" opacity="0.9" />
+      <ellipse cx="330" cy="402" rx="25" ry="30" fill="#f2b6c1" opacity="0.82" />
+      <path d="M 270 332 Q 330 402 390 332" fill="none" stroke="#7c3b49" stroke-width="8" stroke-linecap="round" />
+      <path d="M 300 355 Q 330 376 360 355" fill="none" stroke="#7c3b49" stroke-width="7" stroke-linecap="round" opacity="0.85" />
+      <path d="M 220 356 C 200 388, 200 428, 230 448" fill="none" stroke="#d79d5d" stroke-width="18" stroke-linecap="round" />
+      <path d="M 440 356 C 460 388, 460 428, 430 448" fill="none" stroke="#d79d5d" stroke-width="18" stroke-linecap="round" />
+      <ellipse cx="220" cy="468" rx="34" ry="18" fill="#f7d7aa" />
+      <ellipse cx="440" cy="468" rx="34" ry="18" fill="#f7d7aa" />
+      <ellipse cx="220" cy="490" rx="18" ry="13" fill="#f4c7d9" />
+      <ellipse cx="440" cy="490" rx="18" ry="13" fill="#f4c7d9" />
+      <circle cx="205" cy="486" r="18" fill="#f4c7d9" />
+      <circle cx="455" cy="486" r="18" fill="#f4c7d9" />
+      <circle cx="205" cy="486" r="11" fill="#f7d7e4" opacity="0.5" />
+      <circle cx="455" cy="486" r="11" fill="#f7d7e4" opacity="0.5" />
+    </g>
+  </g>
+
+  <g class="expression hopeful">
+    <g transform="translate(25,55)">
+      <ellipse cx="330" cy="286" rx="16" ry="18" fill="#fff" />
+      <ellipse cx="330" cy="286" rx="6" ry="9" fill="#1b1a1a" />
+      <ellipse cx="285" cy="286" rx="16" ry="18" fill="#fff" />
+      <ellipse cx="375" cy="286" rx="16" ry="18" fill="#fff" />
+      <circle cx="280" cy="280" r="3" fill="#fff" />
+      <circle cx="380" cy="280" r="3" fill="#fff" />
+      <circle cx="285" cy="286" r="7" fill="#1b1a1a" />
+      <circle cx="375" cy="286" r="7" fill="#1b1a1a" />
+      <ellipse cx="390" cy="341" rx="16" ry="12" fill="#f3a1bf" opacity="0.9" />
+      <ellipse cx="270" cy="341" rx="16" ry="12" fill="#f3a1bf" opacity="0.9" />
+      <path d="M 270 332 Q 330 390 390 332" fill="none" stroke="#7c3b49" stroke-width="8" stroke-linecap="round" />
+      <circle cx="330" cy="344" r="7" fill="#e9acaf" opacity="0.9" />
+    </g>
+  </g>
+
+  <g class="expression crying">
+    <g transform="translate(25,55)">
+      <path d="M 246 230 Q 274 206 286 232" fill="none" stroke="#5f3d2d" stroke-width="8" stroke-linecap="round" />
+      <path d="M 414 230 Q 386 206 374 232" fill="none" stroke="#5f3d2d" stroke-width="8" stroke-linecap="round" />
+      <path d="M 260 242 Q 286 256 286 239" fill="none" stroke="#5f3d2d" stroke-width="7" stroke-linecap="round" />
+      <path d="M 400 242 Q 374 256 374 239" fill="none" stroke="#5f3d2d" stroke-width="7" stroke-linecap="round" />
+      <path d="M 256 280 Q 286 295 286 270" fill="none" stroke="#7aaedd" stroke-width="7" stroke-linecap="round" />
+      <path d="M 404 280 Q 374 295 374 270" fill="none" stroke="#7aaedd" stroke-width="7" stroke-linecap="round" />
+      <path class="tear" d="M 270 268 Q 268 308 258 348" fill="none" stroke="#7fd7f5" stroke-width="7" stroke-linecap="round" />
+      <path class="tear" d="M 390 268 Q 392 308 402 348" fill="none" stroke="#7fd7f5" stroke-width="7" stroke-linecap="round" />
+      <ellipse class="tear-drop" cx="258" cy="350" rx="9" ry="18" fill="#8fe0ff" opacity="0.9" />
+      <ellipse class="tear-drop" cx="402" cy="350" rx="9" ry="18" fill="#8fe0ff" opacity="0.9" />
+      <path d="M 242 332 Q 330 305 418 332" fill="none" stroke="#7c3b49" stroke-width="9" stroke-linecap="round" />
+      <path d="M 276 355 Q 330 392 384 355" fill="none" stroke="#7c3b49" stroke-width="9" stroke-linecap="round" />
+      <circle cx="286" cy="284" r="7" fill="#1b1a1a" />
+      <circle cx="374" cy="284" r="7" fill="#1b1a1a" />
+      <circle cx="258" cy="266" r="5" fill="#7fd7f5" opacity="0.9" />
+      <circle cx="402" cy="266" r="5" fill="#7fd7f5" opacity="0.9" />
+      <ellipse cx="285" cy="339" rx="16" ry="12" fill="#f3a1bf" opacity="0.9" />
+      <ellipse cx="375" cy="339" rx="16" ry="12" fill="#f3a1bf" opacity="0.9" />
+    </g>
+  </g>
+
+  <g class="expression happy">
+    <g transform="translate(25,55)">
+      <ellipse cx="286" cy="286" rx="16" ry="18" fill="#fff" />
+      <ellipse cx="374" cy="286" rx="16" ry="18" fill="#fff" />
+      <circle cx="286" cy="286" r="7" fill="#1b1a1a" />
+      <circle cx="374" cy="286" r="7" fill="#1b1a1a" />
+      <circle cx="280" cy="280" r="3" fill="#fff" />
+      <circle cx="380" cy="280" r="3" fill="#fff" />
+      <path d="M 266 332 Q 330 390 394 332" fill="none" stroke="#7c3b49" stroke-width="8" stroke-linecap="round" />
+      <path d="M 298 322 Q 330 348 362 322" fill="none" stroke="#d08c7b" stroke-width="6" stroke-linecap="round" opacity="0.8" />
+      <ellipse cx="280" cy="341" rx="16" ry="12" fill="#f3a1bf" opacity="0.9" />
+      <ellipse cx="380" cy="341" rx="16" ry="12" fill="#f3a1bf" opacity="0.9" />
+    </g>
+  </g>
+
+  <g id="bouquet" class="bouquet" transform="translate(157 185)">
+    <g>
+      <path d="M 235 255 C 260 220, 300 214, 314 248 C 286 270, 252 276, 235 255 Z" fill="url(#leafGreen)" />
+      <path d="M 300 260 C 332 224, 382 228, 396 260 C 372 282, 322 286, 300 260 Z" fill="url(#leafGreen)" />
+      <path d="M 292 252 C 312 206, 352 202, 362 238 C 336 262, 304 264, 292 252 Z" fill="url(#leafGreen)" />
+      <path d="M 240 238 C 270 214, 296 214, 310 236 C 280 254, 258 252, 240 238 Z" fill="#f4a6d4" />
+      <path d="M 287 218 C 315 188, 352 188, 368 216 C 342 236, 306 236, 287 218 Z" fill="#f67cb8" />
+      <path d="M 270 275 C 292 252, 316 252, 330 274 C 302 298, 276 296, 270 275 Z" fill="#e82d8d" />
+      <path d="M 316 282 C 338 258, 368 262, 380 284 C 354 304, 324 304, 316 282 Z" fill="#f45cbc" />
+      <circle cx="275" cy="246" r="26" fill="#ff9ad0" />
+      <circle cx="326" cy="232" r="28" fill="#f15ab1" />
+      <circle cx="286" cy="285" r="26" fill="#ff5db2" />
+      <circle cx="340" cy="284" r="24" fill="#f9a9d7" />
+      <circle cx="312" cy="256" r="26" fill="#ff74c1" />
+      <circle cx="360" cy="252" r="22" fill="#ea6ab2" />
+      <path d="M 270 318 C 240 340, 242 382, 286 396" fill="none" stroke="#d3b2c6" stroke-width="10" stroke-linecap="round" />
+      <path d="M 353 320 C 390 338, 394 380, 350 394" fill="none" stroke="#d3b2c6" stroke-width="10" stroke-linecap="round" />
+      <path d="M 286 396 C 288 376, 314 365, 328 376 C 350 390, 348 416, 320 420 C 292 424, 282 412, 286 396 Z" fill="#f3d7e8" opacity="0.8" />
+      <path d="M 312 354 C 320 344, 336 344, 344 354 C 342 374, 322 374, 312 354 Z" fill="#f7e1ee" />
+      <path d="M 236 248 C 228 214, 244 186, 276 170" fill="none" stroke="#f4c5dc" stroke-width="7" stroke-linecap="round" />
+      <path d="M 388 252 C 400 224, 393 194, 364 176" fill="none" stroke="#f4c5dc" stroke-width="7" stroke-linecap="round" />
+    </g>
+  </g>
+</svg>
