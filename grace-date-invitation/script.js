@@ -22,6 +22,9 @@ const finalDateText = document.getElementById('final-date');
 const finalActivityText = document.getElementById('final-activity');
 const finalActivityImage = document.getElementById('final-activity-image');
 
+const WHATSAPP_NUMBER = '256783465654';
+const sendWhatsappBtn = document.getElementById('send-whatsapp-btn');
+
 const activityMeta = {
   'ice-cream': {
     label: 'Ice Cream 🍦',
@@ -154,12 +157,24 @@ function moveNoButton(force = false) {
   }
 }
 
+const NO_MESSAGES = [
+  "Every time you say no, my heart skips a beat... I just want one beautiful moment with you, Grace.",
+  "I'm not asking for much, my love, only a little of your time. You are my favourite part of every day.",
+  "Even when you say no, I'd still choose you. Please give me a chance to make you smile?",
+  "My heart is tiny, but all of it belongs to you, Grace. Won't you say yes?"
+];
+let noMessageIndex = 0;
+let yesTimer = null;
+const YES_BEAR_DURATION = 5000;
+
 function triggerNoDodge() {
   if (state.screen !== 'invitation') return;
   moveNoButton(true);
   state.bearState = 'crying';
   applyBearState();
-  setSpeech('You keep saying no to my dates.', '😭 😢 🥺');
+  const line = NO_MESSAGES[noMessageIndex % NO_MESSAGES.length];
+  noMessageIndex += 1;
+  setSpeech(line, '🥺 💔 💕');
 }
 
 function handleYesButton() {
@@ -167,16 +182,16 @@ function handleYesButton() {
 
   state.bearState = 'happy';
   applyBearState();
-  setSpeech('I can believe you finally said yes');
-  bubbleEmoji.textContent = '';
+  setSpeech('You said yes! You just made my whole heart bloom, Grace. I promise to make this day unforgettable for you.', '🌹 💖 🥰');
 
   yesBtn.style.display = 'none';
   noBtn.style.display = 'none';
 
-  setTimeout(() => {
+  clearTimeout(yesTimer);
+  yesTimer = setTimeout(() => {
     setScreen('date-selection');
     dateInput.focus();
-  }, 220);
+  }, YES_BEAR_DURATION);
 }
 
 function renderDateSelectionState() {
@@ -202,11 +217,22 @@ function renderConfirmation() {
 
   finalDateText.textContent = formattedDate;
   finalActivityText.textContent = activityMeta[state.selectedActivity].label;
+  const waText = [
+    "Hi! It's Grace 💖",
+    "I said YES to our date! 🥰",
+    `📅 Date: ${formattedDate}`,
+    `🍽️ Plan: ${activityMeta[state.selectedActivity].label}`,
+    "Can't wait to see you, my love! 💕"
+  ].join('\n');
+  sendWhatsappBtn.href = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(waText)}`;
+
   finalActivityImage.src = activityMeta[state.selectedActivity].image;
   finalActivityImage.alt = `${activityMeta[state.selectedActivity].label} illustration`;
 }
 
 function resetExperience() {
+  clearTimeout(yesTimer);
+  noMessageIndex = 0;
   state.screen = 'invitation';
   state.bearState = 'hopeful';
   state.selectedDate = '';
