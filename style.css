@@ -537,8 +537,13 @@ input:focus-visible {
   grid-column: 2 / span 2;
 }
 
-.activity-card:nth-child(5) {
+.activity-card:nth-child(5),
+.activity-card:nth-child(7) {
   grid-column: 4 / span 2;
+}
+
+.activity-card:nth-child(6) {
+  grid-column: 2 / span 2;
 }
 
 .activity-card img {
@@ -701,11 +706,13 @@ input:focus-visible {
 
   .activity-card,
   .activity-card:nth-child(4),
-  .activity-card:nth-child(5) {
+  .activity-card:nth-child(5),
+  .activity-card:nth-child(6),
+  .activity-card:nth-child(7) {
     grid-column: auto;
   }
 
-  .activity-card:nth-child(5) {
+  .activity-card:nth-child(7) {
     grid-column: 1 / -1;
     justify-self: center;
     width: calc(50% - 0.5rem);

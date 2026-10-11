@@ -45,6 +45,14 @@ const activityMeta = {
   chicken: {
     label: 'Chicken 🍗',
     image: 'assets/chicken.png'
+  },
+  movies: {
+    label: 'Movies 🎬',
+    image: 'assets/movies.png'
+  },
+  swimming: {
+    label: 'Swimming 🏊',
+    image: 'assets/swimming.png'
   }
 };
 
